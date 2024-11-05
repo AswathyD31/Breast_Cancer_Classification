@@ -106,8 +106,8 @@ ______
 
 Based on the results of the analysis:
 
-**Random Forest** emerged as the most effective model, achieving the highest accuracy of **96.5%**. This performance indicates its strong ability to handle the complexities of the breast cancer dataset, likely due to its ensemble nature and robustness against overfitting.
+* **Random Forest** emerged as the most effective model, achieving the highest accuracy of **96.5%**. This performance indicates its strong ability to handle the complexities of the breast cancer dataset, likely due to its ensemble nature and robustness against overfitting.
 
-**Decision Tree**, on the other hand, achieved the lowest accuracy at **93.9%**. Although it’s often an interpretable choice, its single-tree structure might not capture all underlying patterns as effectively as Random Forest.
+* **Decision Tree**, on the other hand, achieved the lowest accuracy at **93.9%**. Although it’s often an interpretable choice, its single-tree structure might not capture all underlying patterns as effectively as Random Forest.
 
 This comparison highlights Random Forest as the most suitable algorithm for this dataset, balancing performance with the specific characteristics of the data. Future improvements could involve hyperparameter tuning or exploring additional ensemble methods to further refine model performance.
