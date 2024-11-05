@@ -44,7 +44,7 @@ The dataset consists of 30 features that describe various properties of the cell
 
 * **Fractal dimension:** Fractal dimension of the tumor.
 
-* These features are computed in three ways:
+These features are computed in three ways:
 
 **Mean:** The average value of the feature across samples.
 
