@@ -17,31 +17,32 @@ The dataset is available in the scikit-learn library and can be easily loaded us
 The dataset was originally collected from the University of Wisconsin Hospitals and consists of various characteristics computed from digitized images of breast cancer tumor samples.
 
 **2. Dataset Features**
+
 The dataset consists of 30 features that describe various properties of the cell nuclei present in the tumor images. The features include:
 
-**ID:** Unique identifier for each sample.
+* **ID:** Unique identifier for each sample.
 
-**Diagnosis:** Target variable (M = malignant, B = benign).
+* **Diagnosis:** Target variable (M = malignant, B = benign).
 
-**Radius:** Mean radius of the tumor (in mm).
+* **Radius:** Mean radius of the tumor (in mm).
 
-**Texture:** Standard deviation of gray-scale values.
+* **Texture:** Standard deviation of gray-scale values.
 
-**Perimeter:** Mean perimeter of the tumor (in mm).
+* **Perimeter:** Mean perimeter of the tumor (in mm).
 
-**Area:** Mean area of the tumor (in square mm).
+* **Area:** Mean area of the tumor (in square mm).
 
-**Smoothness:** Local variation in radius lengths.
+* **Smoothness:** Local variation in radius lengths.
 
-**Compactness:** (Perimeter^2 / Area) - 1.0.
+* **Compactness:** (Perimeter^2 / Area) - 1.0.
 
-**Concavity:** Severity of concave portions of the contour.
+* **Concavity:** Severity of concave portions of the contour.
 
-**Concave points:** Number of concave portions of the contour.
+* **Concave points:** Number of concave portions of the contour.
 
-**Symmetry:** Symmetry of the tumor.
+* **Symmetry:** Symmetry of the tumor.
 
-**Fractal dimension:** Fractal dimension of the tumor.
+* **Fractal dimension:** Fractal dimension of the tumor.
 
 * These features are computed in three ways:
 
@@ -68,16 +69,7 @@ The dataset consists of 30 features that describe various properties of the cell
   
 * **Target Variable:** A binary classification label indicating whether the tumor is malignant or benign.
 
-**4. Loading the Dataset**
-
-To load the dataset using Python and scikit-learn, you can use the following code:
-
-from sklearn.datasets import load_breast_cancer
-data = load_breast_cancer()
-X = data.data  # Features
-y = data.target  # Target variable
-
-**5. Exploratory Data Analysis (EDA)**
+**4. Exploratory Data Analysis (EDA)**
 You can perform various analyses on this dataset, such as:
 
 * **Statistical Summary:** Understand the distribution of the features.
@@ -88,15 +80,16 @@ You can perform various analyses on this dataset, such as:
   
 * **Correlation Analysis:** Explore relationships between features using correlation matrices.
 
-**6. Machine Learning Applications**
+**5. Machine Learning Applications**
+
 The Breast Cancer dataset is often used to:
 
 * Train classification models
- 1. Logistic Regression
- 2. Decision Tree Classifier
- 3. Random Forest Classifier
- 4. Support Vector Machine (SVM)
- 5. k-Nearest Neighbors (k-NN) to predict tumor malignancy.
+ **1. Logistic Regression**
+ **2. Decision Tree Classifier**
+ **3. Random Forest Classifier**
+ **4. Support Vector Machine (SVM)**
+ **5. k-Nearest Neighbors (k-NN)** to predict tumor malignancy.
   
 * Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score.
   
