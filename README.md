@@ -85,11 +85,16 @@ You can perform various analyses on this dataset, such as:
 
 The Breast Cancer dataset is often used to:
 
-* Train classification models
+ Train classification models
+ 
  **1. Logistic Regression**
+ 
  **2. Decision Tree Classifier**
+ 
  **3. Random Forest Classifier**
+ 
  **4. Support Vector Machine (SVM)**
+ 
  **5. k-Nearest Neighbors (k-NN)** to predict tumor malignancy.
   
 * Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score.
