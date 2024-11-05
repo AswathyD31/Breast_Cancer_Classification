@@ -44,13 +44,13 @@ The dataset consists of 30 features that describe various properties of the cell
 
 * **Fractal dimension:** Fractal dimension of the tumor.
 
-These features are computed in three ways:
+**These features are computed in three ways:**
 
-**Mean:** The average value of the feature across samples.
+* **Mean:** The average value of the feature across samples.
 
-**Standard error (se):** The standard deviation of the feature values.
+* **Standard error (se):** The standard deviation of the feature values.
 
-**Worst:** The maximum value of the feature across the samples.
+* **Worst:** The maximum value of the feature across the samples.
 
 * **The full feature list typically includes:**
 
@@ -70,6 +70,7 @@ These features are computed in three ways:
 * **Target Variable:** A binary classification label indicating whether the tumor is malignant or benign.
 
 **4. Exploratory Data Analysis (EDA)**
+
 You can perform various analyses on this dataset, such as:
 
 * **Statistical Summary:** Understand the distribution of the features.
