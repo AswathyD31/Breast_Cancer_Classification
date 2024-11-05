@@ -52,7 +52,7 @@ The dataset consists of 30 features that describe various properties of the cell
 
 * **Worst:** The maximum value of the feature across the samples.
 
-* **The full feature list typically includes:**
+**The full feature list typically includes:**
 
 * radius_mean, texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean, concavity_mean, concave points_mean, symmetry_mean, fractal_dimension_mean
   
@@ -85,7 +85,7 @@ You can perform various analyses on this dataset, such as:
 
 The Breast Cancer dataset is often used to:
 
- Train classification models
+* Train classification models
  
  **1. Logistic Regression**
  
